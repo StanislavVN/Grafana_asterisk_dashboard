@@ -14,7 +14,7 @@ Example config:
 ddddd (code)
 
 ## General rows
-![image alt](/images/general_rows.png))
+![image alt](/images/general_rows.png)
 
 ## States rows
 (image2)
