@@ -4,9 +4,13 @@ aaaaa
 bbbbbb
 
 ## Asterisk Configuration
+Example config:
+
 ccccccc (code)
 
 ## Prometheus Configuration
+Example config:
+
 ddddd (code)
 
 ## General rows
