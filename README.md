@@ -14,7 +14,7 @@ Example config:
 ddddd (code)
 
 ## General rows
-(image1)
+![graphs of basic SNMP objects](/images/general rows.png)
 
 ## States rows
 (image2)
