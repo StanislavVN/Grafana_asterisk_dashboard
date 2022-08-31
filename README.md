@@ -1,6 +1,4 @@
 # Grafana asterisk dashboard
-"Тут будет основное описание"
-
 ## Asterisk Configuration
 To collect metrics, you need to enable the embedded prometheus_exporter for asterisk.
 
