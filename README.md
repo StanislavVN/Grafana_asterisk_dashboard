@@ -41,6 +41,21 @@ Example config:
 
 `curl http://localhost:8088/metrics`
 
+## Metrics
+* asterisk_channels_count
+* asterisk_calls_sum
+* asterisk_calls_count
+* asterisk_channels_state
+* asterisk_channels_duration_seconds
+* asterisk_endpoints_count
+* asterisk_endpoints_state
+* asterisk_endpoints_channels_count
+* asterisk_bridges_count
+* asterisk_bridges_channels_count
+* asterisk_core_properties
+* asterisk_core_uptime_seconds
+* asterisk_core_last_reload_seconds
+* asterisk_core_scrape_time_ms
 
 ## General rows
 "Описание1"
@@ -56,3 +71,6 @@ Example config:
 "Описание3"
 
 ![image alt](/images/Statistics_rows.png)
+
+## End information
+#### The project was completed by [SN](https://github.com/StanislavVN) working after [SPbEC-Mining Ltd](https://github.com/smtech-ru).
