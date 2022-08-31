@@ -1,17 +1,41 @@
 # Grafana_asterisk_dashboard
-aaaaa
-
-bbbbbb
+"Тут будет основное описание"
 
 ## Asterisk Configuration
-Example config:
+"создаем конфигурационные файлы на нашем сервере asterisk:" `prometheus.conf` и `http.conf`
 
-ccccccc (code)
+Example config `prometheus.conf`
+```
+[general]
+enabled = yes
+core_metrics_enabled = yes
+uri = metrics
+```
+
+Example config `http.conf`
+```
+[general]
+enabled=yes
+enablestatic=yes
+bindaddr=0.0.0.0
+bindport=8088
+prefix=
+sessionlimit=100
+session_inactivity=30000
+session_keep_alive=15000
+```
 
 ## Prometheus Configuration
 Example config:
-
-ddddd (code)
+```
+  - job_name: "asterisk_exporter"
+    scrape_interval: 10s
+    static_configs:
+      - targets: ["IP-адрес asterisk:8088"] 
+      - targets: ["192.168.1.1:8088"]        #IP-address Asterisk Server
+        labels:
+          id: "Asterisk"
+```
 
 ## General rows
 "Описание1"
