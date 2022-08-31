@@ -17,7 +17,7 @@ ddddd (code)
 ![image alt](/images/general_rows.png)
 
 ## States rows
-(image2)
+![image alt](/images/States_rows.png)
 
 ## Statistics rows
-(image3)
+![image alt](/images/Statistics_rows.png)
