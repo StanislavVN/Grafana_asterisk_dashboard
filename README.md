@@ -37,7 +37,7 @@ Example config:
           id: "Asterisk"
 ```
 
-## "Просмотр получаемых метрик"
+## View Metrics
 You can view the resulting metrics using the following command: 
 
 `curl http://localhost:8088/metrics`
