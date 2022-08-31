@@ -75,5 +75,4 @@ Graph
 
 ![image alt](/images/Statistics_rows.png)
 
-## End information
 #### The project was completed by [SN](https://github.com/StanislavVN) working after [SPbEC-Mining Ltd](https://github.com/smtech-ru).
