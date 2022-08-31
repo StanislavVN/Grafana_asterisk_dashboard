@@ -34,7 +34,7 @@ Example config:
   - job_name: "asterisk_exporter"
     scrape_interval: 10s
     static_configs:
-      - targets: ["192.168.1.1:8088"]        #IP-address Asterisk Server
+      - targets: ["localhost:8088"]        #IP-address Asterisk Server
         labels:
           id: "Asterisk"
 ```
