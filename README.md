@@ -1,4 +1,4 @@
-# Grafana_asterisk_dashboard
+# Grafana asterisk dashboard
 "Тут будет основное описание"
 
 ## Asterisk Configuration
