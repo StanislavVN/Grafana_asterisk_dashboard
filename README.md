@@ -31,11 +31,16 @@ Example config:
   - job_name: "asterisk_exporter"
     scrape_interval: 10s
     static_configs:
-      - targets: ["IP-адрес asterisk:8088"] 
       - targets: ["192.168.1.1:8088"]        #IP-address Asterisk Server
         labels:
           id: "Asterisk"
 ```
+
+## "Просмотр получаемых метрик"
+"Посмотреть получаемые метрики можно с помощью следующей команды": 
+
+`curl http://localhost:8088/metrics`
+
 
 ## General rows
 "Описание1"
