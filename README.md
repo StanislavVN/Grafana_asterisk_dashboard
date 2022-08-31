@@ -2,7 +2,10 @@
 "Тут будет основное описание"
 
 ## Asterisk Configuration
-"создаем конфигурационные файлы на нашем сервере asterisk:" `prometheus.conf` и `http.conf`
+To collect metrics, you need to enable the embedded prometheus_exporter for asterisk.
+
+
+Сreate configuration files on asterisk server `prometheus.conf` и `http.conf`
 
 Example config `prometheus.conf`
 ```
@@ -37,7 +40,7 @@ Example config:
 ```
 
 ## "Просмотр получаемых метрик"
-"Посмотреть получаемые метрики можно с помощью следующей команды": 
+You can view the resulting metrics using the following command: 
 
 `curl http://localhost:8088/metrics`
 
@@ -58,17 +61,17 @@ Example config:
 * asterisk_core_scrape_time_ms
 
 ## General rows
-"Описание1"
+General information about the asterisk server
 
 ![image alt](/images/general_rows.png)
 
 ## States rows
-"Описание2"
+Information about the status of channels state, endpoint state and channels duration seconds
 
 ![image alt](/images/States_rows.png)
 
 ## Statistics rows
-"Описание3"
+Graph
 
 ![image alt](/images/Statistics_rows.png)
 
