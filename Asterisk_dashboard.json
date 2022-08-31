@@ -86,7 +86,7 @@
         "text": {},
         "textMode": "name"
       },
-      "pluginVersion": "9.0.2",
+      "pluginVersion": "9.1.1",
       "targets": [
         {
           "datasource": {
@@ -150,7 +150,7 @@
         "text": {},
         "textMode": "name"
       },
-      "pluginVersion": "9.0.2",
+      "pluginVersion": "9.1.1",
       "targets": [
         {
           "datasource": {
@@ -230,7 +230,7 @@
         "text": {},
         "textMode": "value"
       },
-      "pluginVersion": "9.0.2",
+      "pluginVersion": "9.1.1",
       "targets": [
         {
           "datasource": {
@@ -293,7 +293,7 @@
         "text": {},
         "textMode": "name"
       },
-      "pluginVersion": "9.0.2",
+      "pluginVersion": "9.1.1",
       "targets": [
         {
           "datasource": {
@@ -355,7 +355,7 @@
         "text": {},
         "textMode": "name"
       },
-      "pluginVersion": "9.0.2",
+      "pluginVersion": "9.1.1",
       "targets": [
         {
           "datasource": {
@@ -431,17 +431,21 @@
         "showThresholdLabels": false,
         "showThresholdMarkers": true
       },
-      "pluginVersion": "9.0.2",
+      "pluginVersion": "9.1.1",
       "targets": [
         {
           "datasource": {
             "type": "prometheus",
             "uid": "dVZlVZ6nk"
           },
+          "editorMode": "code",
+          "exemplar": false,
           "expr": "avg(asterisk_endpoints_state-1)*100",
           "format": "time_series",
           "hide": false,
+          "instant": true,
           "intervalFactor": 1,
+          "range": false,
           "refId": "A",
           "step": 240
         }
@@ -492,7 +496,7 @@
         "showThresholdMarkers": true,
         "text": {}
       },
-      "pluginVersion": "9.0.2",
+      "pluginVersion": "9.1.1",
       "targets": [
         {
           "datasource": {
@@ -552,7 +556,7 @@
         "showThresholdLabels": false,
         "showThresholdMarkers": true
       },
-      "pluginVersion": "9.0.2",
+      "pluginVersion": "9.1.1",
       "targets": [
         {
           "datasource": {
@@ -612,7 +616,7 @@
         "showThresholdLabels": false,
         "showThresholdMarkers": true
       },
-      "pluginVersion": "9.0.2",
+      "pluginVersion": "9.1.1",
       "targets": [
         {
           "datasource": {
@@ -672,7 +676,7 @@
         "showThresholdLabels": false,
         "showThresholdMarkers": true
       },
-      "pluginVersion": "9.0.2",
+      "pluginVersion": "9.1.1",
       "targets": [
         {
           "datasource": {
@@ -746,7 +750,7 @@
         "text": {},
         "textMode": "value"
       },
-      "pluginVersion": "9.0.2",
+      "pluginVersion": "9.1.1",
       "targets": [
         {
           "datasource": {
@@ -822,8 +826,9 @@
       "options": {
         "alignValue": "left",
         "legend": {
-          "displayMode": "hidden",
-          "placement": "bottom"
+          "displayMode": "list",
+          "placement": "bottom",
+          "showLegend": false
         },
         "mergeValues": true,
         "rowHeight": 0.9,
@@ -1045,7 +1050,7 @@
         "showHeader": true,
         "sortBy": []
       },
-      "pluginVersion": "9.0.2",
+      "pluginVersion": "9.1.1",
       "targets": [
         {
           "datasource": {
@@ -1308,7 +1313,7 @@
         "showHeader": true,
         "sortBy": []
       },
-      "pluginVersion": "9.0.2",
+      "pluginVersion": "9.1.1",
       "targets": [
         {
           "datasource": {
@@ -1374,6 +1379,8 @@
             "mode": "thresholds"
           },
           "custom": {
+            "axisCenteredZero": false,
+            "axisColorMode": "text",
             "axisLabel": "Длительность разговора",
             "axisPlacement": "auto",
             "axisSoftMin": 100,
@@ -1395,7 +1402,8 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "super-light-orange"
+                "color": "super-light-orange",
+                "value": null
               }
             ]
           },
@@ -1416,8 +1424,9 @@
         "groupWidth": 0.7,
         "legend": {
           "calcs": [],
-          "displayMode": "hidden",
-          "placement": "right"
+          "displayMode": "list",
+          "placement": "right",
+          "showLegend": false
         },
         "orientation": "auto",
         "showValue": "auto",
@@ -1511,7 +1520,7 @@
       },
       "paceLength": 10,
       "percentage": false,
-      "pluginVersion": "9.0.2",
+      "pluginVersion": "9.1.1",
       "pointradius": 2,
       "points": false,
       "renderer": "flot",
@@ -1624,7 +1633,7 @@
       },
       "paceLength": 10,
       "percentage": false,
-      "pluginVersion": "9.0.2",
+      "pluginVersion": "9.1.1",
       "pointradius": 5,
       "points": false,
       "renderer": "flot",
@@ -1698,7 +1707,7 @@
     }
   ],
   "refresh": "5s",
-  "schemaVersion": 36,
+  "schemaVersion": 37,
   "style": "dark",
   "tags": [
     "Asterisk"
@@ -1714,6 +1723,6 @@
   "timezone": "",
   "title": "Asterisk",
   "uid": "cGMQBLmVk",
-  "version": 109,
+  "version": 110,
   "weekStart": ""
 }
